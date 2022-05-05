@@ -1,0 +1,103 @@
+/*背景图片*/
+.bg{
+    background-size: 1200px 750px;
+    background: url("https://img0.baidu.com/it/u=3468204619,457860515&fm=253&fmt=auto&app=138&f=JPEG?w=700&h=394");
+    height: 100%;
+    overflow: hidden;
+}
+/*目录*/
+.catalogue{
+    height: 74px;
+    background-color: rgba(0,0,0,.3);
+}
+
+/*文创 其他*/
+.wenchuang{
+    height: 2440px;
+}
+.wenchuang-title{
+    height: 80px;
+    width: 600px;
+    margin: 40px auto;
+}
+.wenchuang-title ul li,
+.others-title ul li{
+    display: block;
+    float: left;
+}
+.wenchuang-title ul li img,
+.others-title ul li img{
+    height: 70px;
+    width: auto;
+    margin: 15px 20px;
+}
+.wenchuang-title ul li:nth-child(2),
+.others-title ul li:nth-child(2){
+    font: 700 70px '方正舒体';
+    color: #314940;
+}
+.wenchuang-list ul li{
+    display: block;
+    float: left;
+    margin-left: 50px;
+    margin-right: 110px;
+    margin-bottom: 50px;
+}
+.wenchuang-list ul li:nth-child(2n){
+    margin-right: 0;
+}
+.wenchuang-list ul li span{
+    font: 700 25px "华光彩云_CNKI";
+    color: rgb(5, 39, 20);
+
+}
+.wenchuang-list ul li img{
+    width: 500px;
+    height: auto;
+}
+
+/*其他*/
+.others{
+    height: 475px;
+}
+.others .others-title{
+    height: 170px;
+    width: 320px;
+    margin: 0 auto;
+}
+.others img{
+    display: inline-block;
+    float: left;
+    width: 525px;
+    height: auto;
+}
+.equ-title,
+.chart-title{
+    display: block;
+    float: left;
+    font: 700 22px "";
+    color: rgb(5, 39, 20);
+    margin: 122px 30px;
+}
+.characteristic{
+    display: block;
+    float: left;
+    height: 290px;
+    width: 495px;
+}
+.characteristic ul li{
+    display: inline-block;
+    float: left;
+    margin: 15px;
+}
+.characteristic ul li img{
+    height: 100px;
+    width: auto;
+}
+.characteristic ul li span a{
+    font: 400 18px "华光胖头鱼_CNKI";
+    color: darkslategrey;
+}
+.characteristic ul li span a:hover{
+    color: #c81523;
+}
